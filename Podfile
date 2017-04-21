@@ -6,6 +6,16 @@ target 'GBManager' do
   use_frameworks!
 
   # Pods for GBManager
+    pod 'Alamofire', '~> 4.4'
+    pod 'SwiftyJSON'
+    pod 'Kingfisher', '~> 3.0'
+
+    pod 'RxSwift',    '~> 3.0'	
+    pod 'RxCocoa',    '~> 3.0'
+    pod 'Moya'
+
+
+
 
   target 'GBManagerTests' do
     inherit! :search_paths
