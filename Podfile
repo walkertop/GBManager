@@ -13,6 +13,8 @@ target 'GBManager' do
     pod 'RxSwift',    '~> 3.0'	
     pod 'RxCocoa',    '~> 3.0'
     pod 'Moya'
+    pod 'SnapKit', '~> 3.2.0'
+    pod 'XCGLogger', '~> 5.0.1'
 
 
 
