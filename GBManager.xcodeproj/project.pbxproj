@@ -419,6 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A9DWS95K67;
 				INFOPLIST_FILE = GBManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sohu-inc.guobin.GBManager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A9DWS95K67;
 				INFOPLIST_FILE = GBManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sohu-inc.guobin.GBManager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +518,7 @@
 				5D2A06191EA9E05A006E044F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D2A061A1EA9E05A006E044F /* Build configuration list for PBXNativeTarget "GBManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +527,7 @@
 				5D2A061C1EA9E05A006E044F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D2A061D1EA9E05A006E044F /* Build configuration list for PBXNativeTarget "GBManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +536,7 @@
 				5D2A061F1EA9E05A006E044F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
