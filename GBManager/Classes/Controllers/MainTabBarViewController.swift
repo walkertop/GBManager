@@ -10,11 +10,17 @@ import UIKit
 
 class MainTabBarViewController: UITabBarController {
 
+    private let titleArray = ["微信","通讯录","发现","我"]
+    private let normalImageArray = [Asset.tabbarMainframe,Asset.tabbarContacts,Asset.tabbarDiscover,Asset.tabbarMe]
+    private let highlightedImageArray = [Asset.tabbarMainframeHL,Asset.tabbarContactsHL,Asset.tabbarDiscoverHL,Asset.tabbarMeHL]
+    private let childControllers = [MessageViewController(),ContactViewController(),DiscoverViewController(),MeViewController()]
+    var navArray : [UINavigationController] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        setupTabBarVc()
+        setupViewControllers()
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,16 +39,16 @@ class MainTabBarViewController: UITabBarController {
     */
     
     //MARK: Private Method
-    
-    func setupTabBarVc() {
-        let firstVc = UIViewController()
-        firstVc.view.backgroundColor = #colorLiteral(red: 1, green: 0.9937396646, blue: 0.6768518686, alpha: 1)
-        firstVc.title = "首页"
-        let secondVc = UIViewController()
-        secondVc.view.backgroundColor = #colorLiteral(red: 0.09019608051, green: 0, blue: 0.3019607961, alpha: 1)
-        secondVc.title = "第二页"
 
-        self.viewControllers = [firstVc,secondVc]
+    func setupViewControllers() {
+        for (index,controller) in childControllers.enumerated() {
+            controller.title = titleArray[index]
+            controller.tabBarItem.title = titleArray[index]
+            controller.tabBarItem.image = UIImage.init(named: normalImageArray[index].rawValue)
+            controller.tabBarItem.selectedImage = UIImage.init(named:highlightedImageArray[index].rawValue )
+            let navController = UINavigationController(rootViewController: controller)
+            navArray.append(navController)
+        }
+        self.viewControllers = navArray
     }
-
 }

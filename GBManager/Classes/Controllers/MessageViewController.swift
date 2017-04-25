@@ -13,6 +13,7 @@ class MessageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        view.backgroundColor = #colorLiteral(red: 1, green: 0.9937396646, blue: 0.6768518686, alpha: 1)
         // Do any additional setup after loading the view.
     }
 

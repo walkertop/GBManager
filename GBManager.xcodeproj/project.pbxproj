@@ -15,6 +15,12 @@
 		5D2A05FD1EA9E05A006E044F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2A05FB1EA9E05A006E044F /* LaunchScreen.storyboard */; };
 		5D2A06081EA9E05A006E044F /* GBManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A06071EA9E05A006E044F /* GBManagerTests.swift */; };
 		5D2A06131EA9E05A006E044F /* GBManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A06121EA9E05A006E044F /* GBManagerUITests.swift */; };
+		5DEEA4BB1EAEF89C0083D886 /* UIImage+Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEEA4BA1EAEF89C0083D886 /* UIImage+Asset.swift */; };
+		5DEEA4C11EAF02470083D886 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEEA4C01EAF02470083D886 /* MessageViewController.swift */; };
+		5DEEA4C31EAF02600083D886 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEEA4C21EAF02600083D886 /* ContactViewController.swift */; };
+		5DEEA4C51EAF026E0083D886 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEEA4C41EAF026E0083D886 /* DiscoverViewController.swift */; };
+		5DEEA4C71EAF02780083D886 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEEA4C61EAF02780083D886 /* MeViewController.swift */; };
+		5DEEA4C91EAF03160083D886 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEEA4C81EAF03160083D886 /* UIViewController+Extension.swift */; };
 		5DF13D571EA9EE6700A16530 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF13D561EA9EE6700A16530 /* MainTabBarViewController.swift */; };
 		7EA31BAB7E01595637C2B311 /* Pods_GBManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6FFC033E7CAD5847776084 /* Pods_GBManagerUITests.framework */; };
 		D9BBF98467C50CB135657EEA /* Pods_GBManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAFD0068EBD2EE2C6F37CFF /* Pods_GBManagerTests.framework */; };
@@ -55,6 +61,12 @@
 		5D2A060E1EA9E05A006E044F /* GBManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2A06121EA9E05A006E044F /* GBManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBManagerUITests.swift; sourceTree = "<group>"; };
 		5D2A06141EA9E05A006E044F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEEA4BA1EAEF89C0083D886 /* UIImage+Asset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Asset.swift"; sourceTree = "<group>"; };
+		5DEEA4C01EAF02470083D886 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		5DEEA4C21EAF02600083D886 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		5DEEA4C41EAF026E0083D886 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		5DEEA4C61EAF02780083D886 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		5DEEA4C81EAF03160083D886 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		5DF13D561EA9EE6700A16530 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		5F90074A240C45A9132E025C /* Pods-GBManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GBManager/Pods-GBManager.debug.xcconfig"; sourceTree = "<group>"; };
 		A60362726A495D36BA5B3C98 /* Pods-GBManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GBManagerTests/Pods-GBManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +182,10 @@
 			isa = PBXGroup;
 			children = (
 				5DF13D561EA9EE6700A16530 /* MainTabBarViewController.swift */,
+				5DEEA4C01EAF02470083D886 /* MessageViewController.swift */,
+				5DEEA4C21EAF02600083D886 /* ContactViewController.swift */,
+				5DEEA4C41EAF026E0083D886 /* DiscoverViewController.swift */,
+				5DEEA4C61EAF02780083D886 /* MeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -184,6 +200,8 @@
 		5DF13D4F1EA9EDB900A16530 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				5DEEA4BA1EAEF89C0083D886 /* UIImage+Asset.swift */,
+				5DEEA4C81EAF03160083D886 /* UIViewController+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -516,9 +534,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DEEA4C91EAF03160083D886 /* UIViewController+Extension.swift in Sources */,
 				5DF13D571EA9EE6700A16530 /* MainTabBarViewController.swift in Sources */,
 				5D2A05F51EA9E05A006E044F /* ViewController.swift in Sources */,
+				5DEEA4C71EAF02780083D886 /* MeViewController.swift in Sources */,
+				5DEEA4C51EAF026E0083D886 /* DiscoverViewController.swift in Sources */,
+				5DEEA4BB1EAEF89C0083D886 /* UIImage+Asset.swift in Sources */,
 				5D2A05F31EA9E05A006E044F /* AppDelegate.swift in Sources */,
+				5DEEA4C11EAF02470083D886 /* MessageViewController.swift in Sources */,
+				5DEEA4C31EAF02600083D886 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
