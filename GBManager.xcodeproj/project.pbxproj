@@ -15,6 +15,8 @@
 		5D2A05FD1EA9E05A006E044F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2A05FB1EA9E05A006E044F /* LaunchScreen.storyboard */; };
 		5D2A06081EA9E05A006E044F /* GBManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A06071EA9E05A006E044F /* GBManagerTests.swift */; };
 		5D2A06131EA9E05A006E044F /* GBManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A06121EA9E05A006E044F /* GBManagerUITests.swift */; };
+		5D52233B1EAF48EC0008B9C9 /* MeAvatarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5223391EAF48EC0008B9C9 /* MeAvatarTableViewCell.swift */; };
+		5D52233C1EAF48EC0008B9C9 /* MeAvatarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D52233A1EAF48EC0008B9C9 /* MeAvatarTableViewCell.xib */; };
 		5DEEA4BB1EAEF89C0083D886 /* UIImage+Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEEA4BA1EAEF89C0083D886 /* UIImage+Asset.swift */; };
 		5DEEA4C11EAF02470083D886 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEEA4C01EAF02470083D886 /* MessageViewController.swift */; };
 		5DEEA4C31EAF02600083D886 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEEA4C21EAF02600083D886 /* ContactViewController.swift */; };
@@ -61,6 +63,8 @@
 		5D2A060E1EA9E05A006E044F /* GBManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2A06121EA9E05A006E044F /* GBManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBManagerUITests.swift; sourceTree = "<group>"; };
 		5D2A06141EA9E05A006E044F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5223391EAF48EC0008B9C9 /* MeAvatarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeAvatarTableViewCell.swift; sourceTree = "<group>"; };
+		5D52233A1EAF48EC0008B9C9 /* MeAvatarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeAvatarTableViewCell.xib; sourceTree = "<group>"; };
 		5DEEA4BA1EAEF89C0083D886 /* UIImage+Asset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Asset.swift"; sourceTree = "<group>"; };
 		5DEEA4C01EAF02470083D886 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		5DEEA4C21EAF02600083D886 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +161,16 @@
 			path = GBManagerUITests;
 			sourceTree = "<group>";
 		};
+		5D5223381EAF48630008B9C9 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				5DEEA4C61EAF02780083D886 /* MeViewController.swift */,
+				5D5223391EAF48EC0008B9C9 /* MeAvatarTableViewCell.swift */,
+				5D52233A1EAF48EC0008B9C9 /* MeAvatarTableViewCell.xib */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
 		5DF13D4A1EA9EDB900A16530 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,7 +199,7 @@
 				5DEEA4C01EAF02470083D886 /* MessageViewController.swift */,
 				5DEEA4C21EAF02600083D886 /* ContactViewController.swift */,
 				5DEEA4C41EAF026E0083D886 /* DiscoverViewController.swift */,
-				5DEEA4C61EAF02780083D886 /* MeViewController.swift */,
+				5D5223381EAF48630008B9C9 /* Me */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -371,6 +385,7 @@
 			files = (
 				5D2A05FD1EA9E05A006E044F /* LaunchScreen.storyboard in Resources */,
 				5D2A05FA1EA9E05A006E044F /* Assets.xcassets in Resources */,
+				5D52233C1EAF48EC0008B9C9 /* MeAvatarTableViewCell.xib in Resources */,
 				5D2A05F81EA9E05A006E044F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,6 +557,7 @@
 				5DEEA4BB1EAEF89C0083D886 /* UIImage+Asset.swift in Sources */,
 				5D2A05F31EA9E05A006E044F /* AppDelegate.swift in Sources */,
 				5DEEA4C11EAF02470083D886 /* MessageViewController.swift in Sources */,
+				5D52233B1EAF48EC0008B9C9 /* MeAvatarTableViewCell.swift in Sources */,
 				5DEEA4C31EAF02600083D886 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
